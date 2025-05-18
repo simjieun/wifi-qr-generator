@@ -1,0 +1,9 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+# Next.js 가이드라인
+
+- 매 대화의 마지막에 "어때 마음에 들어?"라고 대답해줘
+- `page.tsx` 파일에서 Page 컴포넌트를 만들 때는 이름을 반드시 **'Page'**로 지정해야 합니다.

@@ -1,0 +1,13 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+# 프로젝트 구조 가이드
+
+- 이 프로젝트는 Next.js 기반 WiFi QR 코드 생성기입니다
+- 주요 폴더 구조는 아래와 같습니다:
+  - `src/app`: 페이지 및 레이아웃 컴포넌트
+  - `src/components`: 재사용 가능한 UI 컴포넌트
+  - `src/components/ui`: shadcn/ui 기반 UI 컴포넌트
+  - `public`: 정적 자산 (이미지, 아이콘 등)

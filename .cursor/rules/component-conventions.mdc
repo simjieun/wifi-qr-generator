@@ -1,0 +1,13 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+# 컴포넌트 작성 규칙
+
+- 모든 컴포넌트는 함수형 컴포넌트로 작성합니다
+- 페이지 컴포넌트의 경우:
+  - `page.tsx` 파일 내의 기본 컴포넌트는 항상 `Page`로 이름 지정
+  - 예: `export default function Page() { ... }`
+- 재사용 컴포넌트는 PascalCase로 이름 지정 (예: `WifiForm`, `QrDisplay`)
+- Props 타입은 인터페이스로 정의하고 컴포넌트 위에 선언
